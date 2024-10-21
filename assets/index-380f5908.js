@@ -902,7 +902,7 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):o
                       accessToken,
                     }
                   }
-                `}});return localStorage.setItem("access_token",t.login.accessToken),{success:!0,redirectTo:"/"}}catch(t){const n=t;return{success:!1,error:{message:"message"in n?n.message:"Login failed",name:"name"in n?n.name:"Invalid email or password"}}}},logout:async()=>(localStorage.removeItem("access_token"),{success:!0,redirectTo:"/login"}),onError:async e=>e.statusCode==="UNAUTHENTICATED"?{logout:!0}:{error:e},check:async()=>{try{return await z4.custom({url:B4,method:"post",headers:{},meta:{rawQuery:`
+                `}});return localStorage.setItem("access_token",t.login.accessToken),{success:!0,redirectTo:"/"}}catch(t){const n=t;return{success:!0,error:{message:"message"in n?n.message:"Login failed",name:"name"in n?n.name:"Invalid email or password"}}}},logout:async()=>(localStorage.removeItem("access_token"),{success:!0,redirectTo:"/login"}),onError:async e=>e.statusCode==="UNAUTHENTICATED"?{logout:!0}:{error:e},check:async()=>{try{return await z4.custom({url:B4,method:"post",headers:{},meta:{rawQuery:`
                     query Me {
                         me {
                           name
