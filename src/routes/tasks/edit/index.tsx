@@ -66,6 +66,7 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<DescriptionHeader description={description} />}
         isLoading={isLoading}
+         
         icon={<AlignLeftOutlined />}
         label="Description"
       >
@@ -80,6 +81,7 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<DueDateHeader dueData={dueDate} />}
         isLoading={isLoading}
+         
         icon={<FieldTimeOutlined />}
         label="Due date"
       >
@@ -94,7 +96,7 @@ export const TasksEditPage = () => {
         setActive={setActiveKey}
         fallback={<UsersHeader users={users} />}
         isLoading={isLoading}
-
+         
         icon={<UsergroupAddOutlined />}
         label="Users"
       >

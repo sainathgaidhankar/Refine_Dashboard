@@ -102,6 +102,7 @@ export const CompanyListPage = ({ children }: React.PropsWithChildren) => {
             dataIndex="name"
             title="Company title"
             defaultFilteredValue={getDefaultFilter("id", filters)}
+             
             filterIcon={<SearchOutlined />}
             filterDropdown={(props) => (
               <FilterDropdown {...props}>

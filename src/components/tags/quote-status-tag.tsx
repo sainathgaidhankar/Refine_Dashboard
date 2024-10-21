@@ -15,14 +15,17 @@ const variant: Record<
 > = {
   DRAFT: {
     color: "blue",
+     
     icon: <ExpandOutlined />,
   },
   SENT: {
     color: "cyan",
+     
     icon: <SendOutlined />,
   },
   ACCEPTED: {
     color: "green",
+     
     icon: <CheckCircleOutlined />,
   },
 };
