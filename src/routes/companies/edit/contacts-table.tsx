@@ -72,7 +72,7 @@ export const CompanyContactsTable = () => {
       bodyStyle={{ padding: 0 }}
       title={
         <Space size="middle">
-          {/* @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66 */}
+            
           <TeamOutlined />
           <Text>Contacts</Text>
         </Space>
@@ -111,7 +111,7 @@ export const CompanyContactsTable = () => {
               </Space>
             );
           }}
-           
+          
           filterIcon={<SearchOutlined />}
           filterDropdown={(props) => (
             <FilterDropdown {...props}>
@@ -122,7 +122,7 @@ export const CompanyContactsTable = () => {
         <Table.Column
           title="Title"
           dataIndex="jobTitle"
-           
+          
           filterIcon={<SearchOutlined />}
           filterDropdown={(props) => (
             <FilterDropdown {...props}>
@@ -156,13 +156,13 @@ export const CompanyContactsTable = () => {
                 <Button
                   size="small"
                   href={`mailto:${record.email}`}
-                   
+                  
                   icon={<MailOutlined />}
                 />
                 <Button
                   size="small"
                   href={`tel:${record.phone}`}
-                   
+                  
                   icon={<PhoneOutlined />}
                 />
               </Space>

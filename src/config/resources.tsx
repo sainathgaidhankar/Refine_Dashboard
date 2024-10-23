@@ -12,7 +12,7 @@ export const resources: IResourceItem[] = [
     list: "/",
     meta: {
       label: "Dashboard",
-       
+      
       icon: <DashboardOutlined />,
     },
   },
@@ -24,7 +24,7 @@ export const resources: IResourceItem[] = [
     edit: "/companies/edit/:id",
     meta: {
       label: "Companies",
-       
+      
       icon: <ShopOutlined />,
     },
   },
@@ -35,7 +35,7 @@ export const resources: IResourceItem[] = [
     edit: "/tasks/edit/:id",
     meta: {
       label: "Tasks",
-       
+      
       icon: <ProjectOutlined />,
     },
   },

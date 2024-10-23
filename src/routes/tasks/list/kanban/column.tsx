@@ -69,7 +69,7 @@ export const KanbanColumn = ({
           </Space>
           <Button
             shape="circle"
-             
+            
             icon={<PlusOutlined />}
             onClick={onAddClickHandler}
           />
@@ -126,7 +126,7 @@ export const KanbanColumnSkeleton = ({ children }: React.PropsWithChildren) => {
             type="text"
             shape="circle"
             icon={
-               
+              
               <MoreOutlined
                 style={{
                   transform: "rotate(90deg)",
@@ -134,7 +134,7 @@ export const KanbanColumnSkeleton = ({ children }: React.PropsWithChildren) => {
               />
             }
           />
-          {/* @ts-expect-error Ant Design Icon's v5.0.1 has an issue with @types/react@^18.2.66 */}
+            
           <Button disabled shape="circle" icon={<PlusOutlined />} />
         </Space>
       </div>

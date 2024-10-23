@@ -41,7 +41,7 @@ export const CurrentUser = () => {
       >
         <Button
           style={{ textAlign: "left" }}
-           
+          
           icon={<SettingOutlined />}
           type="text"
           block

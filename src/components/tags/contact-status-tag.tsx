@@ -22,33 +22,33 @@ export const ContactStatusTag = ({ status }: Props) => {
     case "NEW":
     case "CONTACTED":
     case "INTERESTED":
-       
+      
       icon = <PlayCircleOutlined />;
       color = "cyan";
       break;
     case "UNQUALIFIED":
-       
+      
       icon = <PlayCircleOutlined />;
       color = "red";
       break;
     case "QUALIFIED":
     case "NEGOTIATION":
-       
+      
       icon = <PlayCircleFilled />;
       color = "green";
       break;
     case "LOST":
-       
+      
       icon = <PlayCircleFilled />;
       color = "red";
       break;
     case "WON":
-       
+      
       icon = <CheckCircleOutlined />;
       color = "green";
       break;
     case "CHURNED":
-       
+      
       icon = <MinusCircleOutlined />;
       color = "red";
       break;
